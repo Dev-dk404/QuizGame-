@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><center>My Quiz</center></h1>
+    <div id="container">
+
+        <div id="begin">
+        <p>Hi, I am Devendra Adhikari. I am first year student currently studying in Griffith College, Cork. I created this quiz as part of my assignment. The features of this quiz are listed below:</p>
+        <ol>
+            <li>Displays one question at a time.</li>
+            <li>Right and wrong answers can be found through colour indicator</li>
+            <li>Displays 5 random questions from the bank of 10 questions every time you play.</li>
+            <li>Two question types: multiple choice radio buttons and image options.</li>
+            <li>Renders score in percentage at the very end of the quiz.</li>
+
+        </ol>
+        <p>To start the quiz, press  "Start quiz" below.</p>
+    
+        <div id="start">Start Quiz!</div>
+        </div>
+        <div id="quiz" style="display: none;">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" value="A" onclick="save('A')" ></div>
+                <div class="choice" id="B" value="B" onclick="save('B')" ></div>
+                <div class="choice" id="C" value="C" onclick="save('C')" ></div>
+                     
+        
+                <button value="submit" id="submit">Next</button>
+               
+            </div><!--end of choices-->
+        
+        
+              
+                    <!--  <div id="timer">
+                <div id="counter"></div>
+
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div> -->
+            <div id="progress"></div>
+        </div><!--end of quiz-->
+        
+        <div id="scoreContainer" style="display: none;"></div>
+    </div><!--end of container-->
+
+    <script src="quiz.js"></script>
+</body>
+<hr>
+<footer><center>
+    <h4>Quiz By:<b>Devendra Deepkiran Adhikari</b></h4>
+    <p>Student Number: 3015840</p>
+    <p>Email: dbradhik@gmail.com</p>
+    </center>
+
+</footer>
+</html>
