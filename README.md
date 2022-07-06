@@ -1,4 +1,4 @@
-# QuizGame-Uing JavaScript
+# QuizGame-Using JavaScript
 
 This game was my first year project for front end web development. Hence, this file does not include any back end languages. It is created by using HTML, CSS and JavaScript only. 
 Features:
